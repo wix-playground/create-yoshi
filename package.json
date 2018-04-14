@@ -5,12 +5,19 @@
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
-    "test": ":"
+    "test": ":",
+    "release": "wnpm-release --no-shrinkwrap"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "generator-wix-js": "^1.0.359",
     "yo": "^2.0.1"
+  },
+  "devDependencies": {
+    "wnpm-ci": "^6.2.54"
+  },
+  "publishConfig": {
+    "registry": "http://npm.dev.wixpress.com/"
   }
 }
