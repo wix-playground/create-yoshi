@@ -1,0 +1,16 @@
+{
+  "name": "create-yoshi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "generator-wix-js": "^1.0.359",
+    "yo": "^2.0.1"
+  }
+}
