@@ -6,12 +6,12 @@
   "bin": "index.js",
   "scripts": {
     "test": ":",
-    "release": "wnpm-release && yarn",
-    "postpublish": "rm -f npm-shrinkwrap.json yarn.lock"
+    "release": "wnpm-release",
+    "postpublish": "rm -f npm-shrinkwrap.json"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "bundledDependencies": {
     "generator-wix-js": "^1.0.359",
     "yeoman-environment": "^2.0.6"
   },
