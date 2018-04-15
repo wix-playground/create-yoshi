@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "generator-wix-js": "^1.0.359",
-    "yo": "^2.0.1"
+    "yeoman-environment": "^2.0.6"
   },
   "devDependencies": {
     "wnpm-ci": "^6.2.54"
