@@ -6,8 +6,7 @@
   "bin": "index.js",
   "scripts": {
     "test": ":",
-    "release": "wnpm-release",
-    "postpublish": "rm -f npm-shrinkwrap.json"
+    "release": "wnpm-release --no-shrinkwrap"
   },
   "author": "",
   "license": "ISC",
