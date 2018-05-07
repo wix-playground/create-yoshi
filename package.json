@@ -22,5 +22,9 @@
   },
   "publishConfig": {
     "registry": "http://npm.dev.wixpress.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wix-incubator/create-yoshi"
   }
 }
