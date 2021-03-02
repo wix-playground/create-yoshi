@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "bundledDependencies": [
-    "generator-wix-js"
+    "@wix/generator-wix-js"
   ],
   "dependencies": {
-    "generator-wix-js": "^1.0.359",
+    "@wix/generator-wix-js": "^1.0.359",
     "yeoman-environment": "^2.0.6"
   },
   "devDependencies": {
